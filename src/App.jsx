@@ -75,7 +75,7 @@ const App = ({ signOut }) => {
   }
 
   return (
-    <View className="App">
+    <View className="App" style={{ backgroundColor: 'lightblue' }}>
       <Heading level={1}>My Notes App</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
